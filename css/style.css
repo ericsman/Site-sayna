@@ -1,0 +1,153 @@
+*{
+    margin: 0;
+    padding: 0; 
+    background: #18191A;
+} 
+.nav-bar{
+    display: flex;
+    padding: 17px 15px;
+    height: 65px;
+}
+.nav-logo img{
+    width: 113px;
+    height: 40px;
+}
+.nav-links{
+    flex: 1;
+}
+.nav-links ul{
+    margin-left: 150px;
+    display: inline;
+}
+.nav-links ul li{
+    list-style: none;
+    display: inline-block;
+    padding: 4px 30px 3px ;
+}
+.nav-links ul li::after{
+    content: '';
+    width: 0;
+    height: 4px;
+    background: yellow;
+    display: block;
+    margin: auto;
+    margin-top: 12px;
+}
+.nav-links ul li:hover::after{
+    width: 100%;
+    color: yellow;
+}
+.nav-links .statut{
+    list-style: none;
+    display: inline-block;
+    padding: 6px 10px 7px 0px;
+    margin-left: 95px;
+}
+
+/* .sidebar{
+    position: absolute;
+    top: 93px;
+    left: 0px;
+    bottom: 0;
+    height: 100%;
+    width: 300px;
+} */
+/* .sidebar a{
+
+    text-decoration: none;
+    text-align: left;
+    height: 40px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 21px;
+    line-height: 25px;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+} */
+.sidebar{
+    top: 50px;
+    position: absolute;
+    height: 100%;
+    width: 300px;
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: column;
+}
+.menu{
+    padding-top: 30px;
+    height: 45%;
+    width: 80%;
+    margin-left: 10px;
+    padding-bottom: 500px;
+}
+
+.menu a{ 
+    width: 100%;  
+    color: rgb(255, 251, 251);
+    width: 240px;
+    padding: 5px 5px ;
+    border-radius: 10px;
+    text-decoration: none;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    }
+.footeur{
+    background: #242526;
+    border-radius: 10px;
+    height: 173px;
+    width: 298px;
+}
+/* .sidebar img.Shool{
+    margin-left: 5px;
+    margin-right: 10px;
+    height: 20px;
+    width: 25px;
+}
+.sidebar img.Age{
+    margin-left: 5px;
+    margin-right: 10px;
+    height: 20px;
+    width: 25px;
+}
+.sidebar img.Fac{
+    margin-left: 5px;
+    margin-right: 10px;
+    height: 20px;
+    width: 25px;
+}
+.sidebar img.Act{
+    margin-left: 5px;
+    margin-right: 10px;
+    height: 20px;
+    width: 25px;
+}
+.sidebar img.Med{
+    margin-left: 5px;
+    margin-right: 10px;
+    height: 20px;
+    width: 25px;
+}
+.sidebar a.Sid-1{
+    background: url(/icon/m5.png);
+    background-repeat: no-repeat;
+    width: 299px;
+}
+.sidebar a.Sid-2{
+    background: url(/icon/m4.png);
+    background-repeat: no-repeat;
+}
+.sidebar a.Sid-3{
+    background: url(/icon/m3.png);
+    background-repeat: no-repeat;
+}
+.sidebar a.Sid-4{
+    background: url(/icon/m2.png);
+    background-repeat: no-repeat;
+}
+.sidebar a.Sid-5{
+    background: url(/icon/m1.png);
+    background-repeat: no-repeat;
+} */
